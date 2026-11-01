@@ -1,0 +1,21 @@
+export const layoutZh = {
+  'layout.nav.overview': '概览',
+  'layout.nav.apps': '应用',
+  'layout.nav.files': '文件',
+  'layout.nav.logcat': '日志',
+  'layout.nav.terminal': '终端',
+  'layout.nav.performance': '性能',
+  'layout.nav.processes': '进程',
+  'layout.nav.connection': '连接',
+  'layout.nav.assistant': '助手',
+  'layout.appearance': '外观',
+  'layout.appearance.light': '浅色',
+  'layout.appearance.dark': '深色',
+  'layout.appearance.system': '跟随系统',
+  'layout.language': '语言',
+  'layout.disconnect.title': '断开当前设备？',
+  'layout.disconnect.description':
+    '断开后正在进行的文件传输、日志流和终端会话都会停止。可以随时重新连接。',
+  'layout.disconnect.confirm': '断开连接',
+  'layout.pageLoading': '正在加载页面…',
+} as const;
